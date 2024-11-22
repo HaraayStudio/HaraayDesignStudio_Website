@@ -129,9 +129,9 @@ h1{
       opacity: 60%;
       /* margin-top: -10%; */
       /* height: 90%; */
-      height: 500px;
+      height: 400px;
       /* width: 1200px; */
-      margin-left: -5%;
+      margin-left: -5%;   width: 60%;
       /* object-fit: cover; */
     }
   }
