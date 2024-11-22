@@ -6,6 +6,9 @@
   font-weight: 300;
 
 }
+h1{
+   color: #ffffff;
+}
 .countdown-container {
   width: 100vw;
   display: flex;
