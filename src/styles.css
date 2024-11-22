@@ -5,6 +5,9 @@
   src: url("./assets/fonts/EtherealDemoFont-Regular.otf") format("opentype");
   font-weight: 300;
 }
+h1{
+   color: #ffffff;
+}
 .countdown-container {
   width: 100vw;
   display: flex;
