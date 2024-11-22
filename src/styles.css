@@ -34,7 +34,7 @@
   }
 }
 .content{
-  z-index: +5;
+  z-index: +5; color: #ffffff;
 }
 .countdown-date {
   position: absolute;
@@ -43,13 +43,13 @@
   /* transform: translateX(-50px); */
   text-align: center;
   font-size: 32px;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; color: #ffffff;
   h3{
     font-size: 32px;
     color: white;
   }
   p{
-    font-size: 22px;
+    font-size: 22px; color: #ffffff;
   }
 }
 
@@ -59,30 +59,30 @@
  font-size: 64px !important;
   font-weight: bold;
   margin-bottom: 2rem;
-  margin-top: -40%;
+  margin-top: -40%; color: #ffffff;
 }
 
 .time-section {
   text-align: center;
-  font-size: 25px;
+  font-size: 25px; color: #ffffff;
   
 }
 
 .colon {
   margin: 0 1rem;
-  font-size: 64px;
+  font-size: 64px; color: #ffffff;
 }
 
 .countdown-text {
   text-align: center;
-  position: absolute;
+  position: absolute; color: #ffffff;
   left: 30px;
   top: 60%;
   line-height: 90px;          
 
   p{
     font-size: 48px;
-    font-family: "Etherel";
+    font-family: "Etherel"; color: #ffffff;
     color: white;
 
   
