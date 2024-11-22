@@ -118,62 +118,15 @@ function App() {
   const showHeaderFooter = location.pathname !== "/404";
 
   return (
-    <>
-      {isNavigating && <Preloader trigger={isNavigating} />}
+  
+   
 
-      {/* Countdown component */}
+     
       <Countdown />
-      {/*  */}
+    
 
-{/*       <div className="App">
-        {isValidRoute && <Navbar />}
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/countdown" element={<Countdown />} />
-          <Route path="/works" element={<Works />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/contact-us" element={<Contact />} />
-          <Route path="/expertise" element={<Expertise />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="/service1" element={<Service1 />} />
-          <Route path="/service2" element={<Service2 />} />
-          <Route path="/service3" element={<Service3 />} />
-          <Route path="/service4" element={<Service4 />} />
-          <Route path="/casestudy/akoya" element={<AkoyaCaseStudy />} />
-        
-          <Route path="/casestudy/bosche" element={<BoscheCaseStudy />} />
 
-          <Route path="/casestudy/bakersstreet" element={<BakersCaseStudy />} />
-          <Route
-            path="/casestudy/creamforest"
-            element={<CreamforestCaseStudy />}
-          />
-          <Route path="/casestudy/virat" element={<ViratCaseStudy />} />
-          <Route
-            path="/casestudy/sereneskin"
-            element={<SereneSkinCaseStudy />}
-          />
-          <Route
-            path="/casestudy/bakersstreet/detail"
-            element={<BakersCaseStudydetails2 />}
-          />
-          <Route
-            path="/casestudy/creamforest/detail"
-            element={<CreamfCaseStudyDetail />}
-          />
-          <Route
-            path="/casestudy/virat/detail"
-            element={<ViratCaseStudyDetail />}
-          />
-          <Route
-            path="/casestudy/sereneskin/detail"
-            element={<SereneCaseStudyDetail />}
-          />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        {isValidRoute && <Footer />}
-      </div> */}
-    </>
+   
   );
 }
 
