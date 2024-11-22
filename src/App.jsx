@@ -122,10 +122,10 @@ function App() {
       {isNavigating && <Preloader trigger={isNavigating} />}
 
       {/* Countdown component */}
-      {/* <Countdown /> */}
+      <Countdown />
       {/*  */}
 
-      <div className="App">
+{/*       <div className="App">
         {isValidRoute && <Navbar />}
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -172,7 +172,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
         {isValidRoute && <Footer />}
-      </div>
+      </div> */}
     </>
   );
 }
