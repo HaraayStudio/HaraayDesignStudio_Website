@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./styles.css"; // Import the CSS file
-import bgimg from "./img/hbg.svg"
+import bgimg from "../bannerimage.png"
 const Countdown = () => {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
