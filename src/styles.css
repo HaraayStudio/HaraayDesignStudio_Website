@@ -108,6 +108,10 @@ h1{
 }
 
 @media (max-width: 480px) {
+  .countdown-date {
+  position: absolute;
+
+  left: 30%;}
   .countdown-container {
     width: 100vw;
   }
